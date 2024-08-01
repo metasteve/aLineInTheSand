@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 34px;
+    padding-bottom:0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    padding-top:30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.myTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.myPoints{
+    font-size: 18px;
+    color: #333;
+    background-color: #f4f4f4;
+    padding:20px;
+    margin:30%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+li{
+    border-bottom: 1px solid #ccc;
+    padding:10px;
+}
+li:last-child{
+    border-bottom: none;
+}
+#manifesto{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin:30%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.myPointsTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+}
